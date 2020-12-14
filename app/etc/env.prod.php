@@ -79,5 +79,41 @@ return [
     ],
     'install' => [
         'date' => 'Mon, 23 Nov 2020 08:38:39 +0000'
+    ],
+    'system' => [
+        'default' => [
+            'web' => [
+                'unsecure' => [
+                    'base_url' => 'https://olha-dobrodii.local/',
+                    'base_link_url' => '{{unsecure_base_url}}',
+                    'base_static_url' => 'https://olha-dobrodii.local/static/',
+                    'base_media_url' => 'https://olha-dobrodii.local/media/'
+                ],
+                'secure' => [
+                    'base_url' => 'https://olha-dobrodii.local/',
+                    'base_link_url' => '{{secure_base_url}}',
+                    'base_static_url' => 'https://olha-dobrodii.local/static/',
+                    'base_media_url' => 'https://olha-dobrodii.local/media/'
+                ],
+            ],
+        ],
+        'websites' => [
+            'additional_website' => [
+                'web' => [
+                    'unsecure' => [
+                        'base_url' => 'https://olha-dobrodii-additional.local/',
+                        'base_link_url' => 'https://olha-dobrodii-additional.local/',
+                        'base_static_url' => 'https://olha-dobrodii-additional.local/static/',
+                        'base_media_url' => 'https://olha-dobrodii-additional.local/media/'
+                    ],
+                    'secure' => [
+                        'base_url' => 'https://olha-dobrodii-additional.local/',
+                        'base_link_url' => 'https://olha-dobrodii-additional.local/',
+                        'base_static_url' => 'https://olha-dobrodii-additional.local/static/',
+                        'base_media_url' => 'https://olha-dobrodii-additional.local/media/'
+                    ]
+                ]
+            ]
+        ]
     ]
 ];
