@@ -94,8 +94,8 @@ return [
                     'base_link_url' => '{{secure_base_url}}',
                     'base_static_url' => 'https://olha-dobrodii-dev.local/static/',
                     'base_media_url' => 'https://olha-dobrodii-dev.local/media/'
-                ],
-            ],
+                ]
+            ]
         ],
         'websites' => [
             'additional_website' => [
