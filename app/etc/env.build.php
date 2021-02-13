@@ -14,9 +14,9 @@ return [
         'connection' => [
             'default' => [
                 'host' => 'mysql',
-                'dbname' => 'olha_dobrodii_local',
-                'username' => 'olha_dobrodii_local',
-                'password' => 'olha_dobrodii_local',
+                'dbname' => 'olha_dobrodii_build_local',
+                'username' => 'olha_dobrodii_build_local',
+                'password' => 'rt67yu45h3ny',
                 'model' => 'mysql4',
                 'engine' => 'innodb',
                 'initStatements' => 'SET NAMES utf8;',
@@ -75,7 +75,7 @@ return [
         'vertex' => 1
     ],
     'downloadable_domains' => [
-        'olha-dobrodii.local'
+        'olha-dobrodii-dev.local'
     ],
     'install' => [
         'date' => 'Mon, 23 Nov 2020 08:38:39 +0000'
@@ -84,33 +84,33 @@ return [
         'default' => [
             'web' => [
                 'unsecure' => [
-                    'base_url' => 'https://olha-dobrodii.local/',
+                    'base_url' => 'https://olha-dobrodii-dev.local/',
                     'base_link_url' => '{{unsecure_base_url}}',
-                    'base_static_url' => 'https://olha-dobrodii.local/static/',
-                    'base_media_url' => 'https://olha-dobrodii.local/media/'
+                    'base_static_url' => 'https://olha-dobrodii-dev.local/static/',
+                    'base_media_url' => 'https://olha-dobrodii-dev.local/media/'
                 ],
                 'secure' => [
-                    'base_url' => 'https://olha-dobrodii.local/',
+                    'base_url' => 'https://olha-dobrodii-dev.local/',
                     'base_link_url' => '{{secure_base_url}}',
-                    'base_static_url' => 'https://olha-dobrodii.local/static/',
-                    'base_media_url' => 'https://olha-dobrodii.local/media/'
-                ]
-            ]
+                    'base_static_url' => 'https://olha-dobrodii-dev.local/static/',
+                    'base_media_url' => 'https://olha-dobrodii-dev.local/media/'
+                ],
+            ],
         ],
         'websites' => [
             'additional_website' => [
                 'web' => [
                     'unsecure' => [
-                        'base_url' => 'https://olha-dobrodii-additional.local/',
-                        'base_link_url' => 'https://olha-dobrodii-additional.local/',
-                        'base_static_url' => 'https://olha-dobrodii-additional.local/static/',
-                        'base_media_url' => 'https://olha-dobrodii-additional.local/media/'
+                        'base_url' => 'https://olha-dobrodii-dev.local/',
+                        'base_link_url' => 'https://olha-dobrodii-dev.local/',
+                        'base_static_url' => 'https://olha-dobrodii-dev.local/static/',
+                        'base_media_url' => 'https://olha-dobrodii-dev.local/media/'
                     ],
                     'secure' => [
-                        'base_url' => 'https://olha-dobrodii-additional.local/',
-                        'base_link_url' => 'https://olha-dobrodii-additional.local/',
-                        'base_static_url' => 'https://olha-dobrodii-additional.local/static/',
-                        'base_media_url' => 'https://olha-dobrodii-additional.local/media/'
+                        'base_url' => 'https://olha-dobrodii-dev.local/',
+                        'base_link_url' => 'https://olha-dobrodii-dev.local/',
+                        'base_static_url' => 'https://olha-dobrodii-dev.local/static/',
+                        'base_media_url' => 'https://olha-dobrodii-dev.local/media/'
                     ]
                 ]
             ]
