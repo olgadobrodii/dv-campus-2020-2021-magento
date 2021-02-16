@@ -1,6 +1,7 @@
 # SSL certificates for development
 # $ mkcert olha-dobrodii.local www.olha-dobrodii.local olha-dobrodii-additional.local www.olha-dobrodii-additional.local
-#
+# $ mkcert olha-dobrodii-dev.local www.olha-dobrodii-dev.local olha-dobrodii-additional-dev.local www.olha-dobrodii-additional-dev.local
+
 # Start composition:
 # $ docker-compose up -d
 #
