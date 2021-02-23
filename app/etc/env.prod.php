@@ -98,6 +98,13 @@ return [
             ]
         ],
         'websites' => [
+            'base' => [
+                'design' => [
+                    'theme' => [
+                        'theme_id' => 5
+                    ]
+                ]
+            ],
             'additional_website' => [
                 'web' => [
                     'unsecure' => [
